@@ -1,4 +1,4 @@
-import { TrendingUp, TrendingDown, Minus, Wallet, HandCoins, AlertTriangle } from "lucide-react"
+import { TrendingUp, TrendingDown, Minus, Wallet, Coins, AlertTriangle } from "lucide-react"
 
 interface StatCardProps {
     label: string
@@ -70,7 +70,7 @@ export function StatsCards() {
                 borderColor="#10B981"
                 iconBg="#ECFDF5"
                 iconColor="#10B981"
-                icon={<HandCoins className="size-6" />}
+                icon={<Coins className="size-6" />}
             />
             <StatCard
                 label="חובות פתוחים"
